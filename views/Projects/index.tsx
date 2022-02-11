@@ -12,8 +12,8 @@ const Projects = () => {
         <div className="main-container hight500">
             <div className="projects-col">
                 <ProjImage 
-                    img1Url="./bb-1.PNG" 
-                    img2Url="./bb-2.PNG" 
+                    img1Url="./buzzy-1.png" 
+                    img2Url="./buzzy-2.png" 
                     projUrl="https://www.youtube.com/watch?v=cdwOn_FVBLU"
                 />
             </div>
