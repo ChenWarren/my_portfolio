@@ -1,0 +1,24 @@
+
+.contact-container {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.icon-container {
+    width: 60px;
+    height: 60px;
+
+}
+
+.icon {
+    width: 60px;
+}
+
+.bg-github {
+    background-color: $color_gray;
+    border-radius: 50%;
+}

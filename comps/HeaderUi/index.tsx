@@ -1,9 +1,17 @@
-import React from 'react'
+
 
 const HeaderUi = () => {
   return (
     <div className='header-cont'>
-        HeaderUi
+        <div className='navbar'>
+          <img src='./w.svg' width={60}/>
+        </div>
+        <div className='navbar'>
+          <p>{'<Home/>'}</p>
+          <p>{'<About/>'}</p>
+          <p>{'<Projects/>'}</p>
+          <p>{'<Contact/>'}</p>
+        </div>
     </div>
   )
 }

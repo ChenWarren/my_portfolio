@@ -1,5 +1,15 @@
+@import './config/color.scss';
 @import './index.scss';
-@import './comps/haderui.scss';
+@import './comps/headerui.scss';
+@import './comps/namebox.scss';
+@import './comps/descrip.scss';
+@import './views/mainui.scss';
+@import './comps/projimage.scss';
+@import './comps/projdes.scss';
+@import './views/projects.scss';
+@import './comps/avatar.scss';
+@import './views/about.scss';
+@import './views/contact.scss';
 
 html,
 body {
@@ -7,8 +17,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: rgb(21, 24, 26);
-  color: rgb(113, 131, 110);
+  background-color: $color_black;
+  color: $color_white;
   display: flex;
   flex-direction: column;
 }
@@ -20,4 +30,65 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.color-green {
+  color: $color_green;
+}
+
+.color-gray {
+  color: $color_gray;
+}
+
+.color-orange {
+  color: $color_orange;
+}
+
+.color-blue {
+  color: $color_blue;
+}
+
+.line-hight20 {
+  line-height: 2rem;
+}
+
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-left-5 {
+  padding-left: 5px;
+}
+
+.padding-left-10p {
+  padding-left: 10%;
+}
+
+.border-line-bottem {
+  border-bottom: solid 1px $color_gray;
+}
+
+.font-size-15 {
+  font-size: 1.5rem;
+}
+
+.font-size-12 {
+  font-size: 1.2rem;
+}
+
+.hight500 {
+  height: 500px;
+}
+
+.display-none {
+  display: none;
+}
+
+.divider {
+   height: 80px;
+   width: 100%;
 }
