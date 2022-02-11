@@ -1,4 +1,4 @@
-
+import { Link } from 'react-scroll'
 
 const HeaderUi = () => {
   return (
@@ -7,10 +7,42 @@ const HeaderUi = () => {
           <img src='./w.svg' width={60}/>
         </div>
         <div className='navbar'>
-          <p>{'<Home/>'}</p>
-          <p>{'<About/>'}</p>
-          <p>{'<Projects/>'}</p>
-          <p>{'<Contact/>'}</p>
+          <p>
+            <Link
+              activeClass = 'active' 
+              to='home'
+              spy={true}
+              smooth={true}
+            >{'<Home/>'}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to='about'
+              spy={true}
+              smooth={true}
+            >
+              {'<About/>'}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to='projects'
+              spy={true}
+              smooth={true}
+            >
+              {'<Projects/>'}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to='contact'
+              spy={true}
+              smooth={true}
+            >
+              {'<Contact/>'}
+            </Link>
+          </p>
         </div>
     </div>
   )

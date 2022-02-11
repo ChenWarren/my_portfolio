@@ -24,14 +24,21 @@ const Home: NextPage = () => {
           <div className='container80'>
               <div className='maincont'>
                 <div className='divider'></div>
-                <MainUi/>
+                <div id='home'>
+                  <MainUi/>
+                </div>
                 <div className='divider'></div>
-                <Projects/>
+                <div id='projects'>
+                  <Projects/>
+                </div>
                 <div className='divider'></div>
-                <About/>
+                <div id='about'>
+                  <About/>
+                </div>
                 <div className='divider'></div>
-                {/* <div className='divider border-line-bottem'></div> */}
-                <Contact/>
+                <div id='contact'>
+                  <Contact/>
+                </div>
                 <div className='divider border-line-bottem'></div>
               </div>      
           </div>
