@@ -8,6 +8,11 @@
     justify-content: flex-end;
     align-items: center;
     border-left: solid 1px $color_gray;
+
+    @media (max-width: 600px) { 
+        height: 400px;
+        justify-content: center;
+    }
 }
 
 .about-des-box {
@@ -17,6 +22,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 600px) { 
+        height: 400px;
+    }
 }
 
 .descrip-container {
@@ -25,11 +33,18 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
+    @media (max-width: 600px) {
+        width: 80%;
+    }
 }
 
 .descrip-text {
     padding: 10px 0 10px 10%;
     font-size: 1.5rem;
+    @media (max-width: 600px) {
+        padding: 5px 0 5px 5px;
+    }
 }
 
 .descrip-text-purple {

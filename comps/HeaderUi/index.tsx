@@ -3,10 +3,10 @@ import { Link } from 'react-scroll'
 const HeaderUi = () => {
   return (
     <div className='header-cont'>
-        <div className='navbar'>
-          <img src='./w.svg' width={60}/>
+        <div className='navbar-l'>
+          <img src='./w.svg' className='logo-img'/>
         </div>
-        <div className='navbar'>
+        <div className='navbar-r'>
           <p>
             <Link
               activeClass = 'active' 

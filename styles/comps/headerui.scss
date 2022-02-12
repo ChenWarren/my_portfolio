@@ -7,20 +7,43 @@
     justify-content: center;
 }
 
-.navbar {
+.navbar-l {
     width: 50%;
     padding: 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media (max-width: 600px) { 
+        width: 90%;
+        justify-content: center;
+        padding: 40px 0 0 0;
+    }
 }
 
-.navbar p {
+.navbar-r {
+    width: 50%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 600px) { 
+        display: none;
+    }
+}
+
+.navbar-r p {
     font-size: 1.2rem;
     color: $color_green;
     cursor: default;
 }
 
-.navbar p:hover {
+.navbar-r p:hover {
     color: $color_white;
+}
+
+.logo-img {
+    width: 50px;
+    @media (max-width: 600px) { 
+        width: 40px;
+    }
 }

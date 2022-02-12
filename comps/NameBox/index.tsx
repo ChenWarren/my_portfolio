@@ -4,7 +4,7 @@ const NameBox = () => {
   return (
     <div className='name-box'>
         <div className='nb-text-container'>
-            <img src='./name.svg'/>
+            <img src='./name.svg' className='name-img-xl'/>
         </div>
         <div className='nb-text-container'>
             <div className='nb-text-tag'>{'<h1>'}</div>

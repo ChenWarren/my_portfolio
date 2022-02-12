@@ -82,6 +82,10 @@ a {
 
 .hight500 {
   height: 500px;
+
+  @media (max-width: 600px) {
+    height: 100%;
+  }
 }
 
 .display-none {
@@ -91,4 +95,8 @@ a {
 .divider {
    height: 80px;
    width: 100%;
+
+   @media (max-width: 600px) { 
+    display: none;
+}
 }

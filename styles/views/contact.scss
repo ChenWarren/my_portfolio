@@ -6,12 +6,22 @@
     align-items: center;
     justify-content: space-between;
     height: 400px;
+
+    @media (max-width: 600px) {
+        width: 250px;
+        height: 300px;
+    }
 }
 
 .icon-container {
     width: 60px;
     height: 60px;
+}
 
+.icon-container:hover {
+    width: 63px;
+    height: 63px;
+    border: solid 1px $color_orange;
 }
 
 .icon {

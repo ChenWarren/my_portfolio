@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-width: 600px) { 
+        height: 400px;
+    }
 }
 
 .nb-text-container {
@@ -13,6 +17,10 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 20px 0;
+
+    @media (max-width: 600px) { 
+        width: 100%;
+    }
 }
 
 .nb-text-tag {
@@ -31,4 +39,19 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 5px;
+
+    @media (max-width: 600px) { 
+        font-size: 1.2rem;
+    }
 }
+
+.name-img-xl {
+
+    @media (max-width: 900px) { 
+        width: 250px;
+    }
+    @media (max-width: 600px) { 
+        width: 200px;
+    }
+}
+
