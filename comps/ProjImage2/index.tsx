@@ -1,3 +1,4 @@
+import { useSpring, animated } from "react-spring"
 
 const ProjImage2 = ({
     projUrl='',
@@ -7,12 +8,18 @@ const ProjImage2 = ({
         window.open(projUrl)        
     }
 
+    const transPare = useSpring({ 
+        to: { opacity: 1},
+        from: { opacity: 0},
+        delay: 800, 
+      })
+
     return (
-      <div className="proj-img-container" onClick={imgClick}>
+      <animated.div style={transPare} className="proj-img-container" onClick={imgClick}>
           <div className="img-pad-l">
               <img src="./moview.png" className="img-l"/>
           </div>
-      </div>
+      </animated.div>
     )
   }
   

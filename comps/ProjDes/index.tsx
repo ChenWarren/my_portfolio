@@ -1,11 +1,19 @@
+import { useSpring, animated } from "react-spring"
 
 const ProjDes = ({
   projName='',
   projDes= '',
   projRole='',
 }) => {
+
+  const transPare = useSpring({ 
+    to: { opacity: 1},
+    from: { opacity: 0},
+    delay: 800, 
+  })
+
   return (
-    <div className="proj-des-container">
+    <animated.div style={transPare} className="proj-des-container">
         <div className="proj-des-h">
             <div className="color-green">{projName}</div>
             <div className="color-gray padding-left-5">{'= {'}</div>
@@ -19,7 +27,7 @@ const ProjDes = ({
             <div className="color-blue padding-left-5">{projRole}</div>
         </div>
         <div className="color-gray padding-top-10">{'}'}</div>
-    </div>
+    </animated.div>
   )
 }
 

@@ -1,7 +1,16 @@
+import { useSpring, animated } from "react-spring"
+
 
 const Descrip = () => {
+
+  const fadeInProps = useSpring({
+      to: {opacity: 1, y: 0}, 
+      from: { opacity: 0, y: -50},
+      delay: 600,
+  })
+
   return (
-    <div className="descrip-box">
+    <animated.div style={fadeInProps} className="descrip-box">
         <div className="descrip-container">
             <div className='nb-text-tag'>{'<p>'}</div>
             <div className="descrip-text">
@@ -14,7 +23,7 @@ const Descrip = () => {
             <div className="next-link-text">next( )</div>
             <div className="next-link"/>
         </div>
-    </div>
+    </animated.div>
   )
 }
 

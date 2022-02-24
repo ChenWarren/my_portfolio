@@ -1,7 +1,9 @@
+import { useEffect, useState } from "react"
+
 import ProjImage from "../../comps/ProjImage"
 import ProjImage2 from "../../comps/ProjImage2"
 import ProjDes from "../../comps/ProjDes"
-import { useEffect, useState } from "react"
+
 
 const Projects = () => {
 
