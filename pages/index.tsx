@@ -22,25 +22,32 @@ const Home: NextPage = () => {
           </div>
 
           <div className='container80'>
+
               <div className='maincont'>
+
                 <div className='divider'></div>
                 <div id='home'>
                   <MainUi/>
                 </div>
+
                 <div className='divider'></div>
                 <div id='projects'>
                   <Projects/>
                 </div>
+
                 <div className='divider'></div>
                 <div id='about'>
                   <About/>
                 </div>
+                
                 <div className='divider'></div>
                 <div id='contact'>
                   <Contact/>
                 </div>
                 <div className='divider border-line-bottem'></div>
-              </div>      
+
+              </div>  
+
           </div>
 
           <FooterUi/>
