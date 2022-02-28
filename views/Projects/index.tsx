@@ -46,7 +46,7 @@ const Projects = () => {
                     <div className="projects-col">
                         <ProjDes 
                             projName="Moview" 
-                            projDes='"A movie info web for browning trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub"' 
+                            projDes='"A movie info web for browsing trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub"' 
                             projRole='"Full-stact developer."'
                         />
                     </div>
