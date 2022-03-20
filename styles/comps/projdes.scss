@@ -8,7 +8,7 @@
     font-size: 1.2rem;
 
     @media (max-width: 600px) {
-        width: 80%; 
+        width: 90%; 
         padding: 15px 0;
     }
 }
@@ -23,6 +23,7 @@
 }
 
 .proj-des-body {
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding-left: 10%;

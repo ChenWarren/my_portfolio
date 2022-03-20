@@ -38,7 +38,7 @@ const Projects = () => {
                 </div>
             </div>
             {/* Moview */}
-            { windowSize < 600 ?
+
                 <div className="main-container hight500">
                     <div className="projects-col">
                         <ProjImage2 projUrl="https://www.moview.dev/"/>
@@ -51,20 +51,7 @@ const Projects = () => {
                         />
                     </div>
                 </div>
-                :
-                <div className="main-container hight500">
-                    <div className="projects-col">
-                        <ProjDes 
-                            projName="Moview" 
-                            projDes='"A movie info web for browning trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub"' 
-                            projRole='"Full-stact developer."'
-                        />
-                    </div>
-                    <div className="projects-col">
-                        <ProjImage2 projUrl="https://www.moview.dev/"/>
-                    </div>
-                </div>
-            }
+
             {/* Edu-Ocean */}
             <div className="main-container hight500">
                 <div className="projects-col">

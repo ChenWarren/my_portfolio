@@ -15,7 +15,7 @@ const Descrip = () => {
             <div className='nb-text-tag'>{'<p>'}</div>
             <div className="descrip-text">
                 <div className="descrip-text-purple">Experienced in</div>
-                <div className="descrip-text-blue">Cross-platform web, and App REST API development</div>
+                <div className="descrip-text-blue">Cross-platform web, App, REST API development</div>
             </div>
             <div className='nb-text-tag'>{'</p>'}</div>
         </div>
