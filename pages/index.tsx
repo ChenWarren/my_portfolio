@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import ax from 'axios'
 
 import HeaderUi from '../comps/HeaderUi'
 import MainUi from '../views/MainUi'

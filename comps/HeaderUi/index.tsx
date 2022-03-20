@@ -18,20 +18,20 @@ const HeaderUi = () => {
           </p>
           <p>
             <Link
-              to='about'
-              spy={true}
-              smooth={true}
-            >
-              {'<About/>'}
-            </Link>
-          </p>
-          <p>
-            <Link
               to='projects'
               spy={true}
               smooth={true}
             >
               {'<Projects/>'}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to='about'
+              spy={true}
+              smooth={true}
+            >
+              {'<About/>'}
             </Link>
           </p>
           <p>
