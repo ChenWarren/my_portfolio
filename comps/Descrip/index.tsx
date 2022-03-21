@@ -6,7 +6,7 @@ const Descrip = () => {
   const fadeInProps = useSpring({
       to: {opacity: 1, y: 0}, 
       from: { opacity: 0, y: -50},
-      delay: 600,
+      delay: 300,
   })
 
   return (
@@ -20,7 +20,7 @@ const Descrip = () => {
             <div className='nb-text-tag'>{'</p>'}</div>
         </div>
         <div className="descrip-container">
-            <div className="next-link-text">next( )</div>
+            <div className="next-link-text color-gray">next( )</div>
             <div className="next-link"/>
         </div>
     </animated.div>

@@ -9,7 +9,7 @@ const ProjDes = ({
   const transPare = useSpring({ 
     to: { opacity: 1},
     from: { opacity: 0},
-    delay: 800, 
+    delay: 500, 
   })
 
   return (
@@ -20,7 +20,7 @@ const ProjDes = ({
         </div>
         <div className="proj-des-body padding-top-10">
             <div className="color-gray margin-bottom-10">projectName:</div>
-            <div className="color-blue padding-left-5 margin-bottom-10">{projName}</div>
+            <div className="color-blue padding-left-5 margin-bottom-10 font-size-15">{projName}</div>
         </div>
         <div className="proj-des-body padding-top-10">
             <div className="color-gray margin-bottom-10">description: </div>

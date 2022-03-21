@@ -1,14 +1,16 @@
 @import './config/color.scss';
 @import './index.scss';
+@import './about.scss';
 @import './comps/headerui.scss';
 @import './comps/namebox.scss';
 @import './comps/descrip.scss';
 @import './views/mainui.scss';
 @import './comps/projimage.scss';
 @import './comps/projdes.scss';
+@import './comps/listsui.scss';
 @import './views/projects.scss';
 @import './comps/avatar.scss';
-@import './views/about.scss';
+@import './views/techs.scss';
 @import './views/contact.scss';
 
 html,
@@ -88,6 +90,11 @@ a {
   }
 }
 
+.hight150 {
+  height: 150px;
+
+}
+
 .display-none {
   display: none;
 }
@@ -98,9 +105,26 @@ a {
 
    @media (max-width: 600px) { 
     display: none;
-}
+  }
 }
 
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+
+.thin-line {
+  height: 2px;
+  width: 100%;
+  border-bottom: solid 1px rgb(36, 36, 36);
+  margin: 20px;
+}
+
+.flow-header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  background-color: $color_black;
+}
+
