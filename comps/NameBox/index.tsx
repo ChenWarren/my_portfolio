@@ -5,7 +5,7 @@ const NameBox = () => {
   const fadeInProps = useSpring({
       to: {opacity: 1, y: 0}, 
       from: { opacity: 0, y: -50},
-      delay: 600,
+      delay: 400,
   })
 
   return (

@@ -17,9 +17,7 @@ const Projects = () => {
 
     return (
         <div className="projects-container">
-            <div className="main-header ">
-                <p className="section-title">{'<Projects/>'}</p>
-            </div>
+
             {/* BuzzyBee */}
             <div className="main-container hight500">
                 <div className="projects-col">
@@ -32,13 +30,13 @@ const Projects = () => {
                 <div className="projects-col">
                     <ProjDes 
                         projName="BuzzyBee" 
-                        projDes='"It is a tasks management mobile app for multiple users on a group base. React Native, PHP, MySQL, GitHub"' 
-                        projRole='"Full-stack developer"'
+                        projDes="It is a tasks management mobile app for multiple users on a group base. React Native, PHP, MySQL, GitHub"
+                        projRole="Full-stack developer"
                     />
                 </div>
             </div>
             {/* Moview */}
-
+            <div className="thin-line"/>
                 <div className="main-container hight500">
                     <div className="projects-col">
                         <ProjImage2 projUrl="https://www.moview.dev/"/>
@@ -46,13 +44,14 @@ const Projects = () => {
                     <div className="projects-col">
                         <ProjDes 
                             projName="Moview" 
-                            projDes='"A movie info web for browsing trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub"' 
-                            projRole='"Full-stact developer."'
+                            projDes="A movie info web for browsing trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub" 
+                            projRole="Full-stact developer."
                         />
                     </div>
                 </div>
 
             {/* Edu-Ocean */}
+            <div className="thin-line"/>
             <div className="main-container hight500">
                 <div className="projects-col">
                     <ProjImage 
@@ -62,9 +61,10 @@ const Projects = () => {
                     />
                 </div>
                 <div className="projects-col">
-                    <ProjDes projName="Edu-ocean" projDes='"It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub"' projRole='"Designer & full-stack developer"'/>
+                    <ProjDes projName="Edu-ocean" projDes="It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub" projRole="Designer & full-stack developer"/>
                 </div>
             </div>
+            <div className="thin-line"/>
         </div>
   )
 }

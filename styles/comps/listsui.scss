@@ -1,0 +1,42 @@
+@import '../config/color.scss';
+
+.list-containter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-title {
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    font-size: 1.5rem;
+    color: $color_orange;
+
+    @media (max-width: 600px) { 
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+.list-item-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 600px) { 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.list-item {
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    font-size: 1.2rem;
+    color: $color_blue;
+
+    @media (max-width: 600px) { 
+        padding: 5px;
+        width: 50%;
+    }
+}

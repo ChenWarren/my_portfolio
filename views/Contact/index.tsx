@@ -2,10 +2,6 @@
 const Contact = () => {
   return (
     <div className="projects-container">
-        <div className="main-header ">
-            <p className="section-title">{'<Contact/>'}</p>
-        </div>
-
         <div className="contact-container">
             <SmIcon iconUrl="./Linkedin-icon.png" iconLink="https://www.linkedin.com/in/warren-chen-a9187120b/"/>
             <SmIcon iconUrl="./github-logo.png" bg="bg-github" iconLink="https://github.com/Dev-Warren"/>

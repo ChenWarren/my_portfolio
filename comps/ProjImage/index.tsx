@@ -13,7 +13,7 @@ const ProjImage = ({
   const transPare = useSpring({ 
     to: { opacity: 1},
     from: { opacity: 0},
-    delay: 800, 
+    delay: 600, 
   })
 
   return (
