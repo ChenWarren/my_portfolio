@@ -35,11 +35,8 @@ const Home: NextPage = () => {
                     <p className="section-title">{'<Projects/>'}</p>
                 </div>
                 <Projects/>
-
+                <div className="thin-line"/>
                 <Techs/>
-        
-
-                <div className='divider border-line-bottem'></div>
 
               </div>  
 
