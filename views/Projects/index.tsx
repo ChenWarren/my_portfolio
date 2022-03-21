@@ -64,7 +64,7 @@ const Projects = () => {
                     <ProjDes projName="Edu-ocean" projDes="It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub" projRole="Designer & full-stack developer"/>
                 </div>
             </div>
-            <div className="thin-line"/>
+
         </div>
   )
 }

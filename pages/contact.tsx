@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import FooterUi from '../comps/FooterUi'
 
 import HeaderUi from '../comps/HeaderUi'
 import Contact from '../views/Contact'
@@ -24,6 +25,7 @@ const ContactPage: NextPage = () => {
                 <Contact/>
             </div>
         </div>
+        <FooterUi/>
     </div>
   )
 }

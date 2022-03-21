@@ -12,6 +12,7 @@
 @import './comps/avatar.scss';
 @import './views/techs.scss';
 @import './views/contact.scss';
+@import './comps/footerui.scss';
 
 html,
 body {
@@ -128,3 +129,11 @@ a {
   background-color: $color_black;
 }
 
+.content-wrapper{
+  width: 100%;
+  padding: 100px 15px 15px 15px;
+
+  @media (max-width: 600px) {
+    padding: 80px 20px 20px 20px;
+  }
+}
