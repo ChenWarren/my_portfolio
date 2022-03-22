@@ -32,6 +32,8 @@ const Projects = () => {
                         projName="BuzzyBee" 
                         projDes="It is a tasks management mobile app for multiple users on a group base. React Native, PHP, MySQL, GitHub"
                         projRole="Full-stack developer"
+                        demoUrl="https://www.youtube.com/watch?v=cdwOn_FVBLU"
+                        gitHubUrl="https://github.com/Dev-Warren/bb-server-sample"
                     />
                 </div>
             </div>
@@ -46,6 +48,8 @@ const Projects = () => {
                             projName="Moview" 
                             projDes="A movie info web for browsing trending movies. Developed with third-party API to provide data to the frontend. Next.js, Node.js, Sass, GitHub" 
                             projRole="Full-stact developer."
+                            demoUrl="https://www.moview.dev/"
+                            gitHubUrl="https://github.com/Dev-Warren/moview-sample"
                         />
                     </div>
                 </div>
@@ -61,7 +65,13 @@ const Projects = () => {
                     />
                 </div>
                 <div className="projects-col">
-                    <ProjDes projName="Edu-ocean" projDes="It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub" projRole="Designer & full-stack developer"/>
+                    <ProjDes 
+                        projName="Edu-ocean" 
+                        projDes="It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub" 
+                        projRole="Designer & full-stack developer"
+                        demoUrl="https://ocean-project-deploy.vercel.app/"
+                        gitHubUrl="https://github.com/Dev-Warren/edu_ocean"
+                    />
                 </div>
             </div>
 

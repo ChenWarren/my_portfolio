@@ -7,8 +7,11 @@ import Projects from '../views/Projects'
 import Techs from '../views/Techs'
 import Contact from '../views/Contact'
 import FooterUi from '../comps/FooterUi'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
+
+
     return (
         <div className='main-body'>
           <Head>
@@ -32,7 +35,9 @@ const Home: NextPage = () => {
                 <div className='divider'></div>
                 <div className="thin-line"/>
                 <div className="main-header ">
+                  <Link href='/projects'>
                     <p className="section-title">{'<Projects/>'}</p>
+                  </Link>
                 </div>
                 <Projects/>
                 <div className="thin-line"/>

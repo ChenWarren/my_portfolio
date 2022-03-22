@@ -9,7 +9,6 @@ const HeaderUi = () => {
     { label: '<Home/>', url: '/'},
     { label: '<Projects/>', url: '/projects'},
     { label: '<About/>', url: '/about'},
-    { label: '<Contact/>', url: '/contact'},
   ]
 
   const menuHandler = () => {

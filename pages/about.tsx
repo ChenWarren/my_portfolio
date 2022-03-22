@@ -5,6 +5,7 @@ import HeaderUi from '../comps/HeaderUi'
 import AboutDes from "../comps/AboutDes"
 import Avatar from "../comps/Avatar"
 import FooterUi from '../comps/FooterUi'
+import Contact from '../views/Contact'
 
 
 const About: NextPage = () => {
@@ -49,6 +50,7 @@ const About: NextPage = () => {
                             <AboutDes/>
                         </div>
                     </div>
+                    <Contact/>
                 </div>
             </div>
         </div>
