@@ -11,7 +11,7 @@
 }
 
 .navbar-l {
-    width: 40%;
+    width: 50%;
     padding: 20px 0;
     display: flex;
     flex-direction: row;
@@ -26,11 +26,11 @@
 }
 
 .navbar-r {
-    width: 60%;
+    width: 50%;
     padding: 20px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     @media (max-width: 600px) { 
         display: none;
@@ -63,6 +63,7 @@
     font-size: 1.2rem;
     color: $color_green;
     cursor: default;
+    margin: 0 10px;
 }
 
 .nav-item:hover {

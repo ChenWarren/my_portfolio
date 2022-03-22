@@ -4,7 +4,17 @@ const ProjDes = ({
   projName='',
   projDes= '',
   projRole='',
+  demoUrl='',
+  gitHubUrl='',
 }) => {
+
+  const demoClick = () => {
+      window.open(demoUrl)        
+  }
+
+  const gitHubClick = () => {
+      window.open(gitHubUrl)        
+  }
 
   const transPare = useSpring({ 
     to: { opacity: 1},
@@ -15,7 +25,6 @@ const ProjDes = ({
   return (
     <animated.div style={transPare} className="proj-des-container">
         <div className="proj-des-h">
-            {/* <div className="color-green">{projName}</div> */}
             <div className="color-gray padding-left-5">{'{'}</div>
         </div>
         <div className="proj-des-body padding-top-10">
@@ -31,6 +40,10 @@ const ProjDes = ({
             <div className="color-blue padding-left-5 margin-bottom-10">{projRole}</div>
         </div>
         <div className="color-gray padding-top-10">{'}'}</div>
+        <div className="button-wrapper">
+          <div className="button-style" onClick={demoClick}>{'<Demo/>'}</div>
+          <div className="button-style" onClick={gitHubClick}>{'<GitHub/>'}</div>
+        </div>
     </animated.div>
   )
 }
