@@ -20,13 +20,7 @@ const Projects = () => {
 
             {/* BuzzyBee */}
             <div className="main-container hight500">
-                <div className="projects-col">
-                    <ProjImage 
-                        img1Url="./buzzy-1.png" 
-                        img2Url="./buzzy-2.png" 
-                        projUrl="https://www.youtube.com/watch?v=cdwOn_FVBLU"
-                    />
-                </div>
+
                 <div className="projects-col">
                     <ProjDes 
                         projName="BuzzyBee" 
@@ -36,13 +30,20 @@ const Projects = () => {
                         gitHubUrl="https://github.com/Dev-Warren/bb-server-sample"
                     />
                 </div>
+
+                <div className="projects-col">
+                    <ProjImage 
+                        img1Url="./buzzy-1.png" 
+                        img2Url="./buzzy-2.png" 
+                        projUrl="https://www.youtube.com/watch?v=cdwOn_FVBLU"
+                    />
+                </div>
+
             </div>
             {/* Moview */}
             <div className="thin-line"/>
                 <div className="main-container hight500">
-                    <div className="projects-col">
-                        <ProjImage2 projUrl="https://www.moview.dev/"/>
-                    </div>
+
                     <div className="projects-col">
                         <ProjDes 
                             projName="Moview" 
@@ -52,18 +53,17 @@ const Projects = () => {
                             gitHubUrl="https://github.com/Dev-Warren/moview-sample"
                         />
                     </div>
+
+                    <div className="projects-col">
+                        <ProjImage2 projUrl="https://www.moview.dev/"/>
+                    </div>
+
                 </div>
 
             {/* Edu-Ocean */}
             <div className="thin-line"/>
             <div className="main-container hight500">
-                <div className="projects-col">
-                    <ProjImage 
-                        img1Url="./edo-1.png"
-                        img2Url="./edo-2.png"
-                        projUrl="https://ocean-project-deploy.vercel.app/"
-                    />
-                </div>
+
                 <div className="projects-col">
                     <ProjDes 
                         projName="Edu-ocean" 
@@ -73,6 +73,15 @@ const Projects = () => {
                         gitHubUrl="https://github.com/Dev-Warren/edu_ocean"
                     />
                 </div>
+
+                <div className="projects-col">
+                    <ProjImage 
+                        img1Url="./edo-1.png"
+                        img2Url="./edo-2.png"
+                        projUrl="https://ocean-project-deploy.vercel.app/"
+                    />
+                </div>
+
             </div>
 
         </div>
