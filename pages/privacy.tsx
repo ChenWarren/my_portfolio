@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { headLogo } from '../data/config'
 
 import HeaderUi from '../comps/HeaderUi'
 import FooterUi from '../comps/FooterUi'
@@ -10,7 +11,7 @@ const Privacy: NextPage = () => {
         <Head>
             <title>About Warren Chen Full Stack Web Developer</title>
             <meta name="description" content="Front-End Back-End developer UX/UI designer Problems solving" />
-            <link rel="icon" href="/w.svg" />
+            <link rel="icon" href={headLogo} />
         </Head>
 
         <div className='flow-header'>
