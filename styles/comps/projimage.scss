@@ -16,7 +16,6 @@
 .img-pad {
     padding: 3% 2% 4% 2%;
     border-radius: 10px;
-    border: solid 1px $color_gray;
     background-color: $color_black;
     margin-right: 5%;
 
@@ -28,17 +27,15 @@
 .img-pad-l {
     padding: 2% 1%;
     border-radius: 10px;
-    border: solid 1px $color_gray;
     background-color: $color_black;
 }
 
 .img-pad:hover {
-    border: solid 2px $color_purple;
+    border: solid 1px $color_purple;
 }
 
 .img-pad-l:hover {
-    border: solid 2px $color_purple;
-    padding: 2.5% 1.5%;
+    border: solid 1px $color_purple;
 }
 
 .img-s {

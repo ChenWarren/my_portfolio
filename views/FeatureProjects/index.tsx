@@ -4,12 +4,12 @@ import ProjImage from "../../comps/ProjImage"
 import ProjDes from "../../comps/ProjDes"
 
 
-const Projects = () => {
+const FeatureProjects = () => {
 
     return (
         <div className="projects-container">
 
-            { projects.map((project)=>{
+            { projects.slice(0,3).map((project)=>{
                 return(
                     <div className="main-container hight500" key={project.id}>
                         <div className="projects-col">
@@ -34,4 +34,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default FeatureProjects

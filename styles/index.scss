@@ -34,5 +34,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.box-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
