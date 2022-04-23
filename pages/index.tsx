@@ -3,9 +3,8 @@ import Head from 'next/head'
 
 import HeaderUi from '../comps/HeaderUi'
 import MainUi from '../views/MainUi'
-import Projects from '../views/Projects'
+import FeatureProjects from '../views/FeatureProjects'
 import Techs from '../views/Techs'
-import Contact from '../views/Contact'
 import FooterUi from '../comps/FooterUi'
 import Link from 'next/link'
 
@@ -33,14 +32,23 @@ const Home: NextPage = () => {
                 <MainUi/>
 
                 <div className='divider'></div>
+
                 <div className="thin-line"/>
+
                 <div className="main-header ">
-                  <Link href='/projects'>
-                    <p className="section-title">{'<Projects/>'}</p>
-                  </Link>
+                    <p className="section-title">{'<Feature Projects/>'}</p>
                 </div>
-                <Projects/>
+
+                <FeatureProjects/>
+
+                <div className="box-center">
+                    <Link href='/projects'>
+                        <p className="button-style font-size-15">{'<More Projects/>'}</p>
+                    </Link>
+                </div>
+
                 <div className="thin-line"/>
+
                 <Techs/>
 
               </div>  
