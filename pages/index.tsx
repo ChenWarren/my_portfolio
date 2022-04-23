@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { headLogo } from '../data/config'
 
 import HeaderUi from '../comps/HeaderUi'
 import MainUi from '../views/MainUi'
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
           <Head>
               <title>Full Stack Web Developer - Warren Chen</title>
               <meta name="description" content="Full stack web developer porfolio website of - Warren Chen " />
-              <link rel="icon" href="/w.svg" />
+              <link rel="icon" href={headLogo} />
           </Head>
 
           <div className='flow-header'>

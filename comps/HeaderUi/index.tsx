@@ -20,7 +20,7 @@ const HeaderUi = () => {
     <div className='header-cont'>
         <div className='navbar-l'>
           <Link href='/'>
-            <img src='./w.svg' className='logo-img'/>
+            <img src='./wchenlogo.svg' className='logo-img'/>
           </Link>
         </div>
 
