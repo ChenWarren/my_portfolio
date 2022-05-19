@@ -1,5 +1,14 @@
 export default [
         { 
+            id: 20220501,
+            title: "AI Learning",
+            description: "This web App aims to help you learn computer languages. By typing any question you have for a specific programming language, AI will show the response, explain the concepts, give examples, and more.Thanks to OpenAI providing a powerful plain text AI system. Please find more information on their website.",
+            role: "Front-end developer",
+            url: "https://hi-ai.vercel.app",
+            github: "https://github.com/ChenWarren/hi-ai",
+            image: "./hi-ai.png"
+        },
+        { 
             id: 20220302,
             title: "Game 4096",
             description: "It is a web game that invites the player to join the numbers and try to reach 4096. The idea was inspired by the 1024 game and the 2048 but developed with my technology solution. React.js, Next.js, and TypeScript",
