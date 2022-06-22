@@ -1,5 +1,14 @@
 export default [
         { 
+            id: 20220601,
+            title: "Happyway.ca",
+            description: "Happyway.ca is a hyperlocal travel curation platform that allows both travellers and locals alike to find activities, amenities and events in regions all across BC Canada.",
+            role: "Front-end developer",
+            url: "https://happyway.ca/",
+            github: "https://github.com/ChenWarren",
+            image: "./happyway.ca.png"
+        },
+        { 
             id: 20220501,
             title: "AI Learning",
             description: "This web App aims to help you learn computer languages. By typing any question you have for a specific programming language, AI will show the response, explain the concepts, give examples, and more.Thanks to OpenAI providing a powerful plain text AI system. Please find more information on their website.",
