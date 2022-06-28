@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { headLogo } from '../data/config'
-
 import HeaderUi from '../comps/HeaderUi'
 import MainUi from '../views/MainUi'
 import FeatureProjects from '../views/FeatureProjects'
@@ -10,25 +9,12 @@ import FooterUi from '../comps/FooterUi'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
-
-
     return (
         <div className='main-body'>
           <Head>
               <title>Full Stack Web Developer - Warren Chen</title>
               <meta name="description" content="Full stack web developer porfolio website of - Warren Chen " />
               <link rel="icon" href={headLogo} />
-              {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-              <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9WH002XX4"></script>
-              <script>
-                {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-
-                  gtag('config', 'G-L9WH002XX4');
-                `}
-              </script>
           </Head>
 
           <div className='flow-header'>
