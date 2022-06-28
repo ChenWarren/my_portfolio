@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                 <FeatureProjects/>
 
                 <div className="box-center">
-                    <Link href='/projects'>
+                    <Link href='/projects' passHref>
                         <p className="button-style font-size-15">{'<More Projects/>'}</p>
                     </Link>
                 </div>
