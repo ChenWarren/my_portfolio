@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { headLogo } from '../data/config'
-
 import HeaderUi from '../comps/HeaderUi'
 import MainUi from '../views/MainUi'
 import FeatureProjects from '../views/FeatureProjects'
@@ -10,8 +9,6 @@ import FooterUi from '../comps/FooterUi'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
-
-
     return (
         <div className='main-body'>
           <Head>
@@ -54,7 +51,7 @@ const Home: NextPage = () => {
                 <FeatureProjects/>
 
                 <div className="box-center">
-                    <Link href='/projects'>
+                    <Link href='/projects' passHref>
                         <p className="button-style font-size-15">{'<More Projects/>'}</p>
                     </Link>
                 </div>
