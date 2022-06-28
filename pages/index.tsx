@@ -18,6 +18,17 @@ const Home: NextPage = () => {
               <title>Full Stack Web Developer - Warren Chen</title>
               <meta name="description" content="Full stack web developer porfolio website of - Warren Chen " />
               <link rel="icon" href={headLogo} />
+              {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9WH002XX4"></script>
+              <script>
+                {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                  gtag('config', 'G-L9WH002XX4');
+                `}
+              </script>
           </Head>
 
           <div className='flow-header'>
