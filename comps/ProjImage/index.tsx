@@ -1,8 +1,9 @@
 import { useSpring, animated } from "react-spring"
+import Image from "next/image"
 
 const ProjImage = ({
     projUrl='',
-    imgUrl='./moview.png',
+    imgUrl='/moview.png',
 }) => {
 
     const imgClick = () => {

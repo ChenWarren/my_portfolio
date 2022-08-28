@@ -1,12 +1,21 @@
 export default [
         { 
+            id: 20220801,
+            title: "NovaCafe",
+            description: "NovaCafe is a web design and development demo that is designed to load quickly, be easy to maintain, and be SEO friendly. It is a great choice for businesses who want a website that will perform well and be easy to keep up to date.",
+            role: "Full-stack developer",
+            url: "https://novacafe.vercel.app/",
+            github: "https://github.com/ChenWarren",
+            image: "/novacafe-home.png"
+        },
+        { 
             id: 20220601,
             title: "Happyway.ca",
             description: "Happyway.ca is a hyperlocal travel curation platform that allows both travellers and locals alike to find activities, amenities and events in regions all across BC Canada.",
             role: "Front-end developer",
             url: "https://happyway.ca/",
             github: "https://github.com/ChenWarren",
-            image: "./happyway.ca.png"
+            image: "/happyway.ca.png"
         },
         { 
             id: 20220501,
@@ -15,7 +24,7 @@ export default [
             role: "Front-end developer",
             url: "https://hi-ai.vercel.app",
             github: "https://github.com/ChenWarren/hi-ai",
-            image: "./hi-ai.png"
+            image: "/hi-ai.png"
         },
         { 
             id: 20220302,
@@ -24,7 +33,7 @@ export default [
             role: "Full-stack developer",
             url: "https://game4096.vercel.app",
             github: "https://github.com/ChenWarren/game4096",
-            image: "./game4096.png"
+            image: "/game4096.png"
         },
         { 
             id: 20220301,
@@ -33,7 +42,7 @@ export default [
             role: "Back-end developer",
             url: "https://echo-sage.vercel.app",
             github: "https://github.com/ChenWarren/echoserver",
-            image: "./echo.png"
+            image: "/echo.png"
         },
         { 
             id: 20211201,
@@ -42,7 +51,7 @@ export default [
             role: "Full-stack developer",
             url: "https://www.youtube.com/watch?v=cdwOn_FVBLU",
             github: "https://github.com/Dev-Warren/bb-server-sample",
-            image: "./buzzy.png"
+            image: "/buzzy.png"
         },
         { 
             id: 20211001,
@@ -51,7 +60,7 @@ export default [
             role: "Full-stack developer",
             url: "https://www.youtube.com/watch?v=26RUXINZIOM",
             github: "https://github.com/ChenWarren/to-do-list-app",
-            image: "./tasklist.png"
+            image: "/tasklist.png"
         },
         { 
             id: 20220101,
@@ -60,7 +69,7 @@ export default [
             role: "Full-stack developer",
             url: "https://www.moview.dev/",
             github: "https://github.com/ChenWarren/moview",
-            image: "./moview.png"
+            image: "/moview.png"
         },
         { 
             id: 20210501,
@@ -69,6 +78,6 @@ export default [
             role: "Designer & full-stack developer",
             url: "https://ocean-project-deploy.vercel.app/",
             github: "https://github.com/ChenWarren/ocean-project-deploy",
-            image: "./edo.png"
+            image: "/edo.png"
         }
     ]

@@ -1,8 +1,9 @@
+import Image from "next/image"
 
 const Avatar = () => {
   return (
     <div className="avatar-container">
-        <img src="./wchen.jpeg" className="avatar"/>
+        <Image src="/wchen.jpg" width={180} height={180} className="avatar" />
     </div>
   )
 }
