@@ -1,5 +1,14 @@
 export default [
         { 
+            id: 20221001,
+            title: "Easybank Landing Page",
+            description: "This project is a challenge to build a responsive landing page using only HTML, CSS, and Javascript. It also requires implementing SEO techniques to make the page more visible to search engines.",
+            role: "Front-end developer",
+            url: "https://chenwarren.github.io/easybank-landing-page",
+            github: "https://github.com/ChenWarren/easybank-landing-page",
+            image: "/easybank.jpg"
+        },
+        { 
             id: 20220801,
             title: "NovaCafe",
             description: "NovaCafe is a web design and development demo that is designed to load quickly, be easy to maintain, and be SEO friendly. It is a great choice for businesses who want a website that will perform well and be easy to keep up to date.",
