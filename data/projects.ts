@@ -72,6 +72,15 @@ export default [
             image: "/moview.png"
         },
         { 
+            id: 20210601,
+            title: "Web Clock",
+            description: "This is a very simple design of a web clock with HTML, CSS, and Javascript.",
+            role: "Designer & Developer",
+            url: "https://chenwarren.github.io/web-clock/",
+            github: "https://github.com/ChenWarren/web-clock",
+            image: "/web-clock.png"
+        },
+        { 
             id: 20210501,
             title: "Edu-ocean",
             description: "It is an ocean protection knowledge mobile web. React, Next.js, Node.js,GitHub",
