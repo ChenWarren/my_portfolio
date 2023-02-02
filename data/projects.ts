@@ -2,7 +2,7 @@ export default [
         { 
             id: 20221001,
             title: "Easybank Landing Page",
-            description: "This project is a challenge to build a responsive landing page using only HTML, CSS, and Javascript. It also requires implementing SEO techniques to make the page more visible to search engines.",
+            description: "Built a responsive landing page using only HTML, CSS, and Javascript, showcasing my front-end development skills. I also gave the page a boost by implementing some SEO techniques to make it more discoverable on search engines.",
             role: "Front-end developer",
             url: "https://chenwarren.github.io/easybank-landing-page",
             github: "https://github.com/ChenWarren/easybank-landing-page",
