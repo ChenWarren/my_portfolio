@@ -1,5 +1,14 @@
 export default [
         { 
+            id: 20221101,
+            title: "The Planets of Solar System",
+            description: "The purpose of this project is to demonstrate how to use the Astro framework to build a website faster. The content is about planets in the Solar system with images and introductions of each planet. The website is responsive for desktop and mobile screens.",
+            role: "Front-end developer",
+            url: "https://our-planets-340bd.web.app",
+            github: "https://github.com/ChenWarren/solar-system-planets",
+            image: "/solar-system-planets.png"
+        },
+        { 
             id: 20221001,
             title: "Easybank Landing Page",
             description: "Built a responsive landing page using only HTML, CSS, and Javascript, showcasing my front-end development skills. I also gave the page a boost by implementing some SEO techniques to make it more discoverable on search engines.",
