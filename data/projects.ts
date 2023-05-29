@@ -1,5 +1,14 @@
 export default [
         { 
+            id: 20230401,
+            title: "Creat.Dev Sanity + Next.js 13",
+            description: "This project seamlessly integrates Sanity with Next.js 13, leveraging Sanity as a content management system. It empowers users to effortlessly update page content and manage blogs. With the latest Next.js app directory architecture, providing a robust solution for content-driven websites.",
+            role: "Full-stack developer",
+            url: "https://www.creatif.dev",
+            github: "https://github.com/ChenWarren",
+            image: "/creatif-dev.png"
+        },
+        { 
             id: 20221101,
             title: "The Planets of Solar System",
             description: "The purpose of this project is to demonstrate how to use the Astro framework to build a website faster. The content is about planets in the Solar system with images and introductions of each planet. The website is responsive for desktop and mobile screens.",
